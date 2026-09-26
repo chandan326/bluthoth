@@ -1,3 +1,4 @@
+import RelatedWork from '../components/RelatedWork';
 import React from 'react';
 import { useBluetoothStore } from '../store/bluetoothStore';
 import {
@@ -241,6 +242,7 @@ export const LandingPage: React.FC<Props> = ({ onOpenDashboard }) => {
           </div>
           <p>© 2026 BlueHub. Production-ready Architecture for Windows 10/11.</p>
         </div>
+        <RelatedWork />
       </footer>
     </div>
   );
